@@ -1,4 +1,4 @@
-datagrid:
+datagrids:
     ds-userpersona-definition:
         extended_entity_name: Ds\Bundle\UserPersonaBundle\Entity\Definition
         source:
@@ -70,7 +70,7 @@ datagrid:
                 type: navigate
                 label: ds.userpersona.definition.grid.actions.view
                 link: view_link
-                icon: eye-open
+                icon: eye
                 acl_resource: ds.userpersona.definition.view
                 rowAction: true
             update:
@@ -159,7 +159,7 @@ datagrid:
                 type: navigate
                 label: ds.userpersona.persona.grid.actions.view
                 link: view_link
-                icon: eye-open
+                icon: eye
                 acl_resource: ds.userpersona.persona.view
                 rowAction: true
             update:
